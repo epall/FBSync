@@ -30,8 +30,20 @@
 
 - (void)doFacebook:(id)source
 {
-    self.fb = [MKFacebook facebookWithAPIKey:@"b7c1da5e946761369e313d9cb3e937f1" delegate:self];
-    NSLog(@"OMG FACEBOOK");
+    self.fb = [[PhFacebook alloc] initWithApplicationID:@"188204611236431" delegate:self];
+    [fb getAccessTokenForPermissions: [NSArray arrayWithObjects: @"read_stream", @"publish_stream", nil] cached:YES];
+}
+
+- (void)userLoginSuccessful
+{
+    NSLog(@"Holy shit I'm in");
+}
+
+- (void) tokenResult: (NSDictionary*) result {
+
+}
+- (void) requestResult: (NSDictionary*) result {
+
 }
 
 @end

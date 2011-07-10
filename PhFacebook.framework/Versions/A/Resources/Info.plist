@@ -7,19 +7,21 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>MKAbeFook</string>
+	<string>PhFacebook</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.pointlesscrap.mkabefook</string>
+	<string>com.casgrain.PhFacebook</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MKAbeFook</string>
+	<string>PhFacebook</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.9.0beta</string>
+	<string>1</string>
 	<key>DTCompiler</key>
 	<string></string>
 	<key>DTPlatformBuild</key>
@@ -34,5 +36,7 @@
 	<string>0402</string>
 	<key>DTXcodeBuild</key>
 	<string>4A2002a</string>
+	<key>NSPrincipalClass</key>
+	<string>PhFacebook</string>
 </dict>
 </plist>
