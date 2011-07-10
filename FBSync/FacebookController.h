@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MkAbeFook/MkAbeFook.h"
+#import <PhFacebook/PhFacebook.h>
 
 
-@interface FacebookController : NSObject {
+@interface FacebookController : NSObject <PhFacebookDelegate> {
 @private
     
 }
 
-@property (retain, nonatomic) MKFacebook* fb;
+@property (retain, nonatomic) PhFacebook* fb;
 -(IBAction) doFacebook:(id)source;
-
+- (void) tokenResult: (NSDictionary*) result;
+- (void) requestResult: (NSDictionary*) result;
 @end

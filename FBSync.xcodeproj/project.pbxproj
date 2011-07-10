@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4AF7B47213C9113A00BF66D8 /* FBSyncServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7B47113C9113A00BF66D8 /* FBSyncServices.m */; };
-		D03EA32D13C904340058555C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03EA32C13C904340058555C /* Cocoa.framework */; };
+		D028E0A013C938470047A4A9 /* PhFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D028E09F13C938470047A4A9 /* PhFacebook.framework */; };
+		D028E0A113C938510047A4A9 /* PhFacebook.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D028E09F13C938470047A4A9 /* PhFacebook.framework */; };
+    D03EA32D13C904340058555C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03EA32C13C904340058555C /* Cocoa.framework */; };
 		D03EA33713C904340058555C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03EA33513C904340058555C /* InfoPlist.strings */; };
 		D03EA33A13C904340058555C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03EA33913C904340058555C /* main.m */; };
 		D03EA33D13C904340058555C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D03EA33B13C904340058555C /* Credits.rtf */; };
@@ -16,18 +18,16 @@
 		D03EA34313C904340058555C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03EA34113C904340058555C /* MainMenu.xib */; };
 		D03EA34E13C908F20058555C /* SyncServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03EA34D13C908F20058555C /* SyncServices.framework */; };
 		D03EA35913C90C1F0058555C /* FacebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03EA35813C90C1F0058555C /* FacebookController.m */; };
-		D03EA36013C90F1E0058555C /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03EA35F13C90F1E0058555C /* MKAbeFook.framework */; };
-		D03EA36213C90F6F0058555C /* MKAbeFook.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D03EA35F13C90F1E0058555C /* MKAbeFook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D03EA35C13C90E060058555C /* CopyFiles */ = {
+		D03EA37713C930080058555C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D03EA36213C90F6F0058555C /* MKAbeFook.framework in CopyFiles */,
+				D028E0A113C938510047A4A9 /* PhFacebook.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		4AF7B47013C9113A00BF66D8 /* FBSyncServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSyncServices.h; sourceTree = "<group>"; };
 		4AF7B47113C9113A00BF66D8 /* FBSyncServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSyncServices.m; sourceTree = "<group>"; };
+		D028E09F13C938470047A4A9 /* PhFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhFacebook.framework; sourceTree = "<group>"; };
 		D03EA32813C904340058555C /* FBSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03EA32C13C904340058555C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D03EA32F13C904340058555C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,7 +53,6 @@
 		D03EA34D13C908F20058555C /* SyncServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SyncServices.framework; path = System/Library/Frameworks/SyncServices.framework; sourceTree = SDKROOT; };
 		D03EA35713C90C1F0058555C /* FacebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookController.h; sourceTree = "<group>"; };
 		D03EA35813C90C1F0058555C /* FacebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookController.m; sourceTree = "<group>"; };
-		D03EA35F13C90F1E0058555C /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKAbeFook.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			files = (
 				D03EA34E13C908F20058555C /* SyncServices.framework in Frameworks */,
 				D03EA32D13C904340058555C /* Cocoa.framework in Frameworks */,
-				D03EA36013C90F1E0058555C /* MKAbeFook.framework in Frameworks */,
+				D028E0A013C938470047A4A9 /* PhFacebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		D03EA32B13C904340058555C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D03EA35F13C90F1E0058555C /* MKAbeFook.framework */,
+				D028E09F13C938470047A4A9 /* PhFacebook.framework */,
 				D03EA32C13C904340058555C /* Cocoa.framework */,
 				D03EA32E13C904340058555C /* Other Frameworks */,
 			);
@@ -144,7 +144,7 @@
 				D03EA32413C904340058555C /* Sources */,
 				D03EA32513C904340058555C /* Frameworks */,
 				D03EA32613C904340058555C /* Resources */,
-				D03EA35C13C90E060058555C /* CopyFiles */,
+				D03EA37713C930080058555C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -239,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -257,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
