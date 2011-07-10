@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF7B47213C9113A00BF66D8 /* FBSyncServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7B47113C9113A00BF66D8 /* FBSyncServices.m */; };
 		D03EA32D13C904340058555C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03EA32C13C904340058555C /* Cocoa.framework */; };
 		D03EA33713C904340058555C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03EA33513C904340058555C /* InfoPlist.strings */; };
 		D03EA33A13C904340058555C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03EA33913C904340058555C /* main.m */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4AF7B47013C9113A00BF66D8 /* FBSyncServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSyncServices.h; sourceTree = "<group>"; };
+		4AF7B47113C9113A00BF66D8 /* FBSyncServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSyncServices.m; sourceTree = "<group>"; };
 		D03EA32813C904340058555C /* FBSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03EA32C13C904340058555C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D03EA32F13C904340058555C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				D03EA33E13C904340058555C /* FBSyncAppDelegate.h */,
+				4AF7B47013C9113A00BF66D8 /* FBSyncServices.h */,
+				4AF7B47113C9113A00BF66D8 /* FBSyncServices.m */,
 				D03EA33F13C904340058555C /* FBSyncAppDelegate.m */,
 				D03EA34113C904340058555C /* MainMenu.xib */,
 				D03EA33313C904340058555C /* Supporting Files */,
@@ -196,6 +201,7 @@
 				D03EA33A13C904340058555C /* main.m in Sources */,
 				D03EA34013C904340058555C /* FBSyncAppDelegate.m in Sources */,
 				D03EA35913C90C1F0058555C /* FacebookController.m in Sources */,
+				4AF7B47213C9113A00BF66D8 /* FBSyncServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
